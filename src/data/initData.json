@@ -1,0 +1,22 @@
+[
+  {
+    "id": "Backlog",
+    "name": "Backlog",
+    "items": []
+  },
+  {
+    "id": "To Do",
+    "name": "To Do",
+    "items": []
+  },
+  {
+    "id": "In Progress",
+    "name": "In Progress",
+    "items": []
+  },
+  {
+    "id": "Done",
+    "name": "Done",
+    "items": []
+  }
+]

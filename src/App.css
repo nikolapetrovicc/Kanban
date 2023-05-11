@@ -1,0 +1,93 @@
+:root {
+  --border-radius-500: 8px;
+  --color-on-background: #ffffff;
+  --fonts-primary: Karla, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #2a385c;
+  background-image: linear-gradient(
+    320deg,
+    hsl(215, 10%, 12%) 0%,
+    hsl(215, 19%, 24%) 100%
+  );
+  font-family: var(--fonts-primary);
+  font-size: 14px;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.wrapper-kanban {
+  padding: 16px;
+}
+
+.title-main {
+  text-align: center;
+  color: #6f767e;
+  margin: 16px;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 640px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.task {
+  flex: 1;
+  padding: 12px;
+}
+
+.list-item {
+  background: #1a1d1f;
+  border-radius: 12px;
+  padding: 8px;
+}
+
+.store-container {
+  text-align: center;
+  color: #6f767e;
+}
+
+.title {
+  margin: 12px 0px;
+}
+
+.items-container {
+  text-align: center;
+}
+
+.item-container {
+  background: #475be8;
+  border-radius: 12px;
+  padding: 16px 23px;
+  margin-bottom: 8px;
+  color: #efefef;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.svg-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 2px solid #efefef;
+  margin-right: 12px;
+  padding: 4px;
+}
